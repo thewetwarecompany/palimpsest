@@ -19,3 +19,6 @@ Read on demand — do not import these into this file, they cost tokens every se
 10. **Commands handed to a person follow the house style:** an explicit `cd` to a Mac mini path first, lines joined with `&&`, guards inside the block, paste-safe characters, no `exit`, no suppressed output, the success line named.
 11. **Minimum necessary architecture.** A new dependency or infrastructure layer needs a written reason next to it. Verify the running result, not the code.
 12. **Plain words.** Short sentences, Canadian spelling, ISO dates, currency on every amount. Public words pass the house copy check.
+
+## Mandatory startup context
+Before answering project questions or making a plan, read CHARTER.md first, then README.md and docs/DECISIONS.md. For scoped implementation work, read docs/SPEC.md and the latest session letter required by the project's local rules. Charter precedence is absolute: CHARTER.md outranks these instructions and any Wetware chassis convention. Re-verify dated operational facts against their current source before relying on them.
